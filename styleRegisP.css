@@ -1,0 +1,28 @@
+@import "compass/css3";
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: Helvetica;
+  }
+
+  header {
+    background-color: #dcdcdc;
+}
+
+.encabezao {
+    text-align: center;
+    color: #565656
+  }
+
+.out-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #36d4f4;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;      
+  }

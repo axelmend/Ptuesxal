@@ -1,0 +1,70 @@
+@import "compass/css3";
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: Helvetica;
+  }
+
+body {
+    background: #eee;
+  }
+
+header {
+    background-color: #dcdcdc;
+}
+
+.encabezao {
+    text-align: center;
+    color: #565656
+  }
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre botones */
+    text-align: center;
+}
+
+.button-container a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.register-students {
+    background-color: #28a745; /* Verde */
+}
+
+.register-staff {
+    background-color: #007bff; /* Azul */
+}
+
+.register-students:hover {
+    background-color: #218838; /* Verde oscuro al pasar el cursor */
+}
+
+.register-staff:hover {
+    background-color: #0056b3; /* Azul oscuro al pasar el cursor */
+}
+
+.out-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;      
+    /* Posición fija en la esquina inferior derecha */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
