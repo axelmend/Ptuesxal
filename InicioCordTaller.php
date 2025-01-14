@@ -64,7 +64,7 @@
     <h2 class="encabezao">Bienvenid@ <?php echo $cort['Nombre'] . " " . $cort['Apaterno']; ?></h2>
     <h3 class="encabezao">Aqui puede dar de alta los talleres a su cargo</h3>
     <div class="button-container">
-        <a href="pag.php" class="register-staff">Administrar Talleres</a>
+        <a href="altatalleres.php" class="register-staff">Administrar Talleres</a>
     </div>
     <a href="loginP.php" class="out-btn">Cerrar Sesión</a>
 </body>
